@@ -1,0 +1,12 @@
+{
+	"type": "code",
+	"modid": "closeurmenu",
+	"name": "Close Ur Menu (CUM)",
+	"version": "1.0.2",
+	"side": "Client",
+	"authors": ["IraGoBrr"],
+	"description": "A funny little mod that makes it so you can't use the inventory trick to put items in your crafting grid and move. I'm evil and messed up.",
+	"dependencies": {
+		"game": "1.22.3"
+	}
+}
