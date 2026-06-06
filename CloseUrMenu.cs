@@ -33,7 +33,7 @@ namespace CloseUrMenu
             {
                 double x = player.Pos.X, z = player.Pos.Z;
                 double dx = x - lastX, dz = z - lastZ;
-                moving = havePrevPos && (dx * dx + dz * dz) > 0.5;
+                moving = havePrevPos && (dx * dx + dz * dz) > 0.0001;
                 lastX = x; lastZ = z;
                 havePrevPos = true;
             }
